@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Soft grayish-blue for calming effect */
+}
+
+h2 {
+  text-align: center;
+  color: #343a40; /* Dark gray for readability */
+}
+
+form {
+  width: 400px; /* Increased width for better spacing */
+  margin: 20px auto; /* Added margin for better centering */
+  background-color: #ffffff; /* White for purity and cleanliness */
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 10px; /* Rounded corners for a friendly appearance */
+  box-shadow: 4px 0px 8px 2px rgba(141, 36, 170, 0.1); /* Subtle shadow for depth */
+}
+
+label {
+  font-weight: bold;
+  color: #495057; /* Dark gray for contrast */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="submit"] {
+  width: calc(100% - 24px); /* Adjusted width for input fields */
+  padding: 12px; /* Increased padding for better input field size */
+  margin-bottom: 20px; /* Increased margin for better spacing */
+  border: 1px solid #ced4da; /* Light gray for border */
+  border-radius: 5px; /* Rounded corners for input fields */
+}
+
+button {
+  width: calc(100% - 24px); /* Adjusted width for button */
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Bright blue for action */
+  color: #fff; /* White text for contrast */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover for emphasis */
+}
+
+.error-message {
+  color: #dc3545; /* Red for error messages */
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+p a {
+  color: #007bff; /* Bright blue for links */
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline; /* Underline on hover for links */
+}
